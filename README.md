@@ -5,7 +5,7 @@ A modern, responsive finance dashboard built using React, focused on clean UI, s
 ---
 
 ## 🚀 Live Demo
-👉 https://your-vercel-link.vercel.app
+👉 [FinSight](https://fin-sight-gamma-ten.vercel.app/)
 
 ---
 
@@ -41,18 +41,21 @@ The project was built with a focus on:
 ## ✨ Features
 
 ### 🎨 UI & UX
+
 - Responsive dashboard layout
 - Collapsible sidebar
 - Clean and modern design system
 - Light / Dark mode toggle
 
 ### ⚙️ Functionality
+
 - Role switching (Admin / Viewer)
 - Page navigation using React Router
 - Interactive sidebar navigation
 - Smooth animations using Framer Motion
 
 ### 📊 Dashboard Elements
+
 - Transactions page
 - Insights page
 - Structured layout for scalable features
@@ -75,8 +78,8 @@ The project was built with a focus on:
 
 ## 📂 Project Structure
 
-
 ## ⚙️ Getting Started
+
 ```bash
 1. Clone the repo
 git clone https://github.com/your-username/fin-sight.git
@@ -88,12 +91,14 @@ npm run dev
 ```
 
 ## 🎯 Future Improvements
+
 - 🔐 Authentication system
 - ☁️ Backend integration
 - 📤 Export data (CSV/JSON)
 - 🔍 Advanced filtering & analytics
 
 ## 👩‍💻 Author
+
 Suhani Dwivedi
 
 - GitHub: [https://github.com/autumnByte](https://github.com/autumnByte)
