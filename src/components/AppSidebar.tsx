@@ -32,10 +32,11 @@ export function AppSidebar() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-foreground/20 backdrop-blur-sm z-40 lg:hidden"
+            transition={{ duration: 0.2 }}
+            className="fixed inset-0 bg-black/40 backdrop-blur-md z-40 lg:hidden"
             onClick={toggleSidebar}
           />
-        )}
+        )}    
       </AnimatePresence>
 
       <motion.aside
@@ -49,6 +50,7 @@ export function AppSidebar() {
           transform transition-transform duration-300
           ${ui.sidebarOpen ? 'translate-x-0' : '-translate-x-full'}
           lg:translate-x-0
+          z-50
         `}
       >
         {/* Logo */}
